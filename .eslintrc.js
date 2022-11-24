@@ -4,7 +4,6 @@ module.exports = {
     es2021: true,
     Node: true,
   },
-  extends: ['plugin:react/recommended', 'standard'],
 
   overrides: [],
   parserOptions: {
