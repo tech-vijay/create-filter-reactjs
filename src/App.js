@@ -1,7 +1,13 @@
 import React from 'react';
 
-const App = () => {
-  return <div>React Js boilerplate!</div>;
+import { BaseButton } from './Components';
+import { DefaultLayout } from './Layout/DefaultLayout';
+
+export const App = () => {
+  return (
+    <DefaultLayout>
+      <BaseButton />
+    </DefaultLayout>
+  );
 };
 
-export default App;
