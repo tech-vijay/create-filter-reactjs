@@ -1,2 +1,2 @@
-# create-filter-reactjs
-search filter, data filter
+# reactjs-boilerplate
+React Js boilerplate with eslint.
