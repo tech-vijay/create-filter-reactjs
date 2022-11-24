@@ -2,8 +2,8 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
-    Node: true,
   },
+  extends: ['plugin:react/recommended'],
 
   overrides: [],
   parserOptions: {
@@ -11,6 +11,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    "semi": "off",
+    semi: 'off',
   },
 };

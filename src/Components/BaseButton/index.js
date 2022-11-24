@@ -1,3 +1,1 @@
-import BaseButton from './BaseButton';
-
-export { BaseButton };
+export * from './BaseButton';
